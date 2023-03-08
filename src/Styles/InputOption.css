@@ -1,0 +1,30 @@
+.inputOption {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: gray;
+  padding: 10px;
+  cursor: pointer;
+}
+.inputOption:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.inputOption_icon{
+  cursor: pointer;
+}
+.inputOption_title {
+  margin-left: 5px;
+}
+@media screen and (max-width: 450px) {
+  .inputOption {
+    flex-direction: column;
+  }
+
+  .inputOption_title {
+    font-size: 12px;
+  }
+  .inputOption_icon {
+    font-size: 11px;
+  }
+}
