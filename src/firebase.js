@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 // import { GoogleAuthProvider } from "firebase/auth";
 // import { getStorage } from "firebase/storage";
 
-const firebaseConfig = {
+//const firebaseConfig = {
   apiKey: "AIzaSyBcZKNvnyHIPGe5z_JFA_L5gflDANIpY80",
   authDomain: "job-link-akhmim.firebaseapp.com",
   projectId: "job-link-akhmim",
